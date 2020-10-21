@@ -3,7 +3,7 @@ import '@testing-library/jest-dom/extend-expect'
 
 import { render, fireEvent } from '@testing-library/svelte'
 
-import App from '../src/App.svelte'
+import App from '../src/App'
 
 test('shows proper heading when rendered', () => {
   const { getByText } = render(App, { name: 'World' })
